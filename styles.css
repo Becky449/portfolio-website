@@ -126,4 +126,15 @@
 .social-media-icons {
   display: inline;
   margin-right: 15px;
+  height: 19.99px;
+  width: 19.99;
+  left: 24px;
+  top: 470px;
+  border-radius: 0px;
+  position: absolute;
+  left: 6.4%;
+  right: 88.27%;
+  top: 77.81%;
+  bottom: 18.88%;
+  background: #505F79;
 }
