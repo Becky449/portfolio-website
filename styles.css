@@ -42,8 +42,7 @@ body {
 }
 
 .main-content {
-  background-image: 
-    url(images/bg.png);
+  background-image: url(images/bg.png);
   background-repeat: no-repeat;
 }
 
