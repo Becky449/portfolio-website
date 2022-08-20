@@ -1,14 +1,15 @@
-
 *{
     margin: 0;
     padding: 0;
     box-sizing: border-box;   
 }
+
 body{
     font-family: 'Poppins', sans-serif !important; 
     font-style: normal;
     max-width: 30%;
 }
+
 .nav-bar {
     display: flex;
     align-items: center;
@@ -19,6 +20,7 @@ body{
     text-decoration: none;
     max-width: 300px;
   }
+
   .nav-logo {
     text-decoration: none;
     font-weight: 700;
@@ -28,6 +30,7 @@ body{
     text-indent: 0.5;
     color: #6070ff;
   }
+
   .hamburger {
     text-decoration: none;
     border: none;
