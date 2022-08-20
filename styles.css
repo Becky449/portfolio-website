@@ -1,15 +1,13 @@
-*{
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;   
 }
-
-body{
+body {
     font-family: 'Poppins', sans-serif !important; 
     font-style: normal;
     max-width: 30%;
 }
-
 .nav-bar {
     display: flex;
     align-items: center;
@@ -20,8 +18,7 @@ body{
     text-decoration: none;
     max-width: 300px;
   }
-
-  .nav-logo {
+.nav-logo {
     text-decoration: none;
     font-weight: 700;
     font-size: 20px;
@@ -30,24 +27,21 @@ body{
     text-indent: 0.5;
     color: #6070ff;
   }
-
-  .hamburger {
+ .hamburger {
     text-decoration: none;
     border: none;
     color: #6070ff;
     background-color: transparent;
     font-size: large;
   }
-  .main-content{
+ .main-content {
     background-image: url(images/bg.png);
     background-repeat: no-repeat; 
   }
-  
-  .content {
+   .content {
     padding: 80px 20px;
   }
-  
-  .content h1 {
+ .content h1 {
     width: 330px;
     height: 150px;
     font-weight: 700;
@@ -60,8 +54,7 @@ body{
     order: 0;
     flex-grow: 0;
   }
-  
-  .content p {
+ .content p {
     width: 300px;
     height: 150px;
     font-weight: 400;
@@ -72,8 +65,7 @@ body{
     order: 1;
     flex-grow: 0;
   }
-  
-  .social {
+ .social {
     text-decoration: none;
     list-style: none;
     text-align: left;
@@ -88,9 +80,7 @@ body{
     margin-top: 25px;
     margin-bottom: 29px;
     }
-  
-  
-  .social-media-icons {
+.social-media-icons {
    margin-top: 20px;
   }
   
