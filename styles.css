@@ -123,6 +123,9 @@
   padding: 0;
   width: 200px;
   height: 20px;
+  flex: none;
+  order: 3;
+  flex-grow: 0;
 }
 
 .social-media-icons {
