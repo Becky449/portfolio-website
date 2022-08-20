@@ -123,7 +123,6 @@
   padding: 0;
   width: 170.17px;
   height: 20px;
-
 }
 
 .social-media-icons {
@@ -134,9 +133,8 @@
   left: 24px;
   top: 470px;
   color: #ffffff;
-  border-radius: 0px;
+  border-radius: 10px;
   position: absolute;
-  top: 77.81%;
   bottom: 18.88%;
   background: #505f79;
 }
