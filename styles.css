@@ -23,6 +23,7 @@
   text-align: center;
   color: #6070ff;
 }
+
 .hamburger {
   text-decoration: none;
   list-style: absolute;
@@ -126,4 +127,3 @@
   display: inline;
   margin-right: 15px;
 }
-
