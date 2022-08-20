@@ -1,3 +1,4 @@
+
 .nav-bar {
   display: flex;
   align-items: center;
@@ -131,4 +132,258 @@
 .social-media-icons {
   display: inline;
   margin-right: 15px;
+}
+
+.works{
+  background-color: white;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 16px;
+  gap: 12px;
+  width: 327px;
+  height: 100vh;
+  border: 1px solid #DFE1E6;
+  border-radius: 16px;
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+}
+.works h2{
+  width: 295px;
+  height: 36px;
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 32px;
+  line-height: 44px;
+  color: #172B4D;
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+}
+
+.frame {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 0px;
+  gap: 12px;
+  width: 227px;
+  height: 32px;
+  flex: none;
+  order: 1;
+  flex-grow: 0;
+}
+.canopy {
+  text-decoration: none;
+  width: 55px;
+  height: 16px;
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 13px;
+  line-height: 16px;
+  color: #344563;
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+}
+
+.dev {
+  width: 100px;
+  height: 16px;
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 13px;
+  line-height: 16px;
+  color: #7A869A;
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+}
+.yr{
+  width: 88px;
+  height: 16px;
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 13px;
+  line-height: 16px;
+  color: #7A869A;
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+}
+.tags{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 0px;
+  gap: 8px;width: 203px;
+  height: 24px;
+  flex: none;
+  order: 2;
+  flex-grow: 0;
+}
+.tags ul{
+  display: flex;
+  flex-direction: row;
+  
+}
+.tags li{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  border: 0px;
+  width: 70px;
+  height: 24px;
+  background: #EBEBFF;
+  border-radius: 8px;
+  background-size: contain;
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+  margin-left: 5px;
+  float: left;
+}
+.tags a{
+  text-decoration: none;
+}
+.tag-item{
+  width: 29px;
+  height: 16px;
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 16px;
+  letter-spacing: 0.03em;
+  color: #6070FF;
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+  align-items: center;
+}
+
+.action{
+  width: 295px;
+  height: 72px;
+  padding-top: 20px;
+  border-radius: 8px;
+  flex: none;
+  order: 3;
+  flex-grow: 0;
+}
+
+.button{
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 12px;
+  gap: 10px;
+  background: #fff;
+  border: 1px solid #6070FF;
+  border-radius: 8px;
+}
+.button a{
+  width: 100px;
+  height: 24px;
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 17px;
+  line-height: 24px;
+  text-decoration: none;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  letter-spacing: 0.03em;
+  color: #396DF2;
+  flex: none;
+  order: 0;
+}
+
+.lang{
+  display: flex;
+  flex-direction: row;
+}
+.lang img{
+  width:10px;
+  height: 15px;
+  
+  padding-left:200px;
+  padding-top: 22px;
+}
+
+.frame9{
+  width: 303px;
+  height: 66.72px;
+  background: #F7F7F9;
+  border-radius: 8px;
+  flex: none;
+  order: 2;
+  flex-grow: 0;
+  margin-bottom: 5px;
+  display: flex;
+  flex-direction: row;
+}
+.frame9 h3{
+  font-family: 'Poppins';
+font-style: normal;
+font-weight: 500;
+font-size: 15px;
+line-height: 20px;
+  padding-left: 15px;
+}
+.frame10{
+  width: 303px;
+  height: 66.72px;
+  background: #F7F7F9;
+  border-radius: 8px;
+  flex: none;
+  order: 2;
+  flex-grow: 0;
+  margin-bottom: 5px;
+  display: flex;
+  flex-direction: row;
+}
+.frame10 h3{
+  padding-left: 15px;
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 15px;
+  line-height: 20px;
+}
+.frame11{
+  width: 303px;
+  height: 66.72px;
+  background: #F7F7F9;
+  border-radius: 8px;
+  flex: none;
+  order: 2;
+  flex-grow: 0;
+  display: flex;
+  flex-direction: row;
+}
+.frame11 h3{
+  padding-left: 15px;
+  font-family: 'Poppins';
+font-style: normal;
+font-weight: 500;
+font-size: 15px;
+line-height: 20px;
+}
+
+.content ul{
+  
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 24px;
+  list-style-type: none;
 }
