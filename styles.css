@@ -5,7 +5,8 @@
 }
 
 body {
-  font-family: 'Poppins', sans-serif; 
+  font-family:
+    'Poppins', sans-serif;
   font-style: normal;
   max-width: 30%;
 }
@@ -40,9 +41,10 @@ body {
 }
 
 .main-content {
-  background-image: url(images/bg.png);
-  background-repeat: no-repeat; 
-} 
+  background-image:
+    url(images/bg.png);
+  background-repeat: no-repeat;
+}
 
 .content {
   padding: 80px 20px;
