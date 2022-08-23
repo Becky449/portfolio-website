@@ -254,15 +254,11 @@
   box-sizing: border-box;
   display: flex;
   flex-direction: row;
-  align-items: center;
   padding: 12px;
   gap: 10px;
   background: #fff;
   border: 1px solid #6070ff;
   border-radius: 8px;
-}
-
-.button a {
   width: 100px;
   height: 24px;
   font-family: 'poppins', sans-serif !important;
@@ -270,8 +266,6 @@
   font-weight: 500;
   font-size: 17px;
   line-height: 24px;
-  text-decoration: none;
-  display: flex;
   align-items: center;
   text-align: center;
   letter-spacing: 0.03em;
