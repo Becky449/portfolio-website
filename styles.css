@@ -1,3 +1,4 @@
+
 .nav-bar {
   display: flex;
   align-items: center;
@@ -47,6 +48,11 @@
 
 .content {
   padding: 80px 20px;
+  border-radius: 12px;
+  margin-bottom: 50px;
+  border: 1px solid #dfe1e6;
+  padding-top: 16px;
+  padding-bottom: 28px;
 }
 
 .content-text {
@@ -131,4 +137,235 @@
 .social-media-icons {
   display: inline;
   margin-right: 15px;
+}
+
+.works {
+  background-color: white;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 16px;
+  gap: 12px;
+  width: 327px;
+  height: 100vh;
+  border-radius: 16px;
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+}
+
+.works h2 {
+  width: 295px;
+  height: 36px;
+  font-family: 'poppins', sans-serif !important;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 32px;
+  line-height: 44px;
+  color: #172b4d;
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+}
+
+.frame {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  width: 227px;
+  height: 32px;
+  flex: none;
+  order: 1;
+  flex-grow: 0;
+}
+
+.content-text-px {
+  position: static;
+  width: 300px;
+  height: 80px;
+  font-family: 'Poppins', sans-serif !important;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 20px;
+  color: #344563;
+  flex: none;
+  order: 1;
+  flex-grow: 0;
+}
+
+.content-x {
+  align-items: center;
+  flex-direction: column;
+  padding-left: 30px;
+}
+
+.post {
+  padding-bottom: 30px;
+}
+
+.tags {
+  width: 203px;
+  height: 24px;
+}
+
+.tags ul {
+  display: flex;
+  flex-direction: row;
+  padding: 0.1px;
+}
+
+.tags li {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  width: 90px;
+  height: 24px;
+  background: #ebebff;
+  border-radius: 8px;
+  background-size: contain;
+  order: 0;
+  flex-grow: 0;
+  margin-left: 5px;
+  float: left;
+}
+
+.tags a {
+  text-decoration: none;
+}
+
+.tag-item {
+  width: 29px;
+  height: 16px;
+  font-family: 'poppins', sans-serif !important;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 16px;
+  letter-spacing: 0.03em;
+  color: #6070ff;
+  padding-left: 7px;
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+  align-items: center;
+}
+
+.button {
+  display: flex;
+  flex-direction: row;
+  padding: 12px;
+  gap: 10px;
+  background: #fff;
+  border: 1px solid #6070ff;
+  border-radius: 8px;
+  width: 130px;
+  height: 48px;
+  font-family: 'poppins', sans-serif !important;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 17px;
+  line-height: 24px;
+  align-items: center;
+  text-align: center;
+  letter-spacing: 0.03em;
+  color: #396df2;
+  flex: none;
+  order: 0;
+}
+
+.button:hover {
+  background-color: #6070ff;
+  color: #fff;
+}
+
+.action {
+  width: 300px;
+  height: 48px;
+  padding-top: 24px;
+  border-radius: 8px;
+  background-color: #fff;
+  flex: none;
+  order: 3;
+  flex-grow: 0;
+}
+
+.button-x {
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 12px;
+  gap: 10px;
+  background: #fff;
+  border: 1px solid #6070ff;
+  border-radius: 8px;
+  width: 170px;
+  height: 48px;
+  font-family: 'poppins', sans-serif !important;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 17px;
+  line-height: 24px;
+  text-align: center;
+  letter-spacing: 0.03em;
+  color: #396df2;
+  flex: none;
+  order: 0;
+}
+
+.button-x:hover {
+  background-color: #6070ff;
+  color: #fff;
+}
+
+.lang {
+  display: flex;
+  align-items: center;
+}
+
+.lang a {
+  text-decoration: none;
+  color: #000;
+  font-family: 'poppins', sans-serif !important;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 24px;
+  margin-top: 10px;
+  padding-top: 5px;
+}
+
+.separator {
+  background: #dfe1e6;
+  height: 1px;
+  width: 327px;
+  margin-top: 23px;
+  list-style-type: none;
+}
+
+.framex {
+  width: 303px;
+  height: 66.72px;
+  background: #f7f7f9;
+  border-radius: 8px;
+  flex: none;
+  order: 2;
+  flex-grow: 0;
+  margin-bottom: 5px;
+  display: flex;
+  flex-direction: row;
+}
+
+.framex a {
+  font-family: 'poppins', sans-serif !important;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 15px;
+  line-height: 20px;
+  padding-left: 15px;
+  text-decoration: none;
+  color: #253858;
+  padding-top: 20px;
+  list-style-type: none;
 }
