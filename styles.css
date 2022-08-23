@@ -212,13 +212,14 @@
 .tags ul {
   display: flex;
   flex-direction: row;
+  padding: 0.1px;
 }
 
 .tags li {
   display: flex;
   flex-direction: row;
   align-items: center;
-  width: 70px;
+  width: 90px;
   height: 24px;
   background: #ebebff;
   border-radius: 8px;
@@ -251,7 +252,6 @@
 }
 
 .button {
-  box-sizing: border-box;
   display: flex;
   flex-direction: row;
   padding: 12px;
@@ -259,8 +259,8 @@
   background: #fff;
   border: 1px solid #6070ff;
   border-radius: 8px;
-  width: 100px;
-  height: 24px;
+  width: 130px;
+  height: 48px;
   font-family: 'poppins', sans-serif !important;
   font-style: normal;
   font-weight: 500;
@@ -272,6 +272,10 @@
   color: #396df2;
   flex: none;
   order: 0;
+}
+.button:hover{
+  background-color: #6070ff;
+  color: #fff;
 }
 
 .action {
@@ -295,8 +299,8 @@
   background: #fff;
   border: 1px solid #6070ff;
   border-radius: 8px;
-  width: 150px;
-  height: 24px;
+  width: 170px;
+  height: 48px;
   font-family: 'poppins', sans-serif !important;
   font-style: normal;
   font-weight: 500;
@@ -309,9 +313,9 @@
   order: 0;
 }
 
-button :hover {
+.button-x:hover {
+  background-color: #6070ff;
   color: #fff;
-  background: #6070ff;
 }
 
 .lang {
