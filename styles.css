@@ -48,6 +48,11 @@
 
 .content {
   padding: 80px 20px;
+  border-radius: 12px;
+  margin-bottom: 50px;
+  border: 1px solid #dfe1e6;
+  padding-top: 16px;
+  padding-bottom: 28px;
 }
 
 .content-text {
@@ -133,8 +138,7 @@
   display: inline;
   margin-right: 15px;
 }
-/*works section
-*/
+
 .works {
   background-color: white;
   display: flex;
@@ -153,12 +157,12 @@
 .works h2 {
   width: 295px;
   height: 36px;
-  font-family: 'Poppins';
+  font-family: 'poppins', sans-serif !important;
   font-style: normal;
   font-weight: 700;
   font-size: 32px;
   line-height: 44px;
-  color: #172B4D;
+  color: #172b4d;
   flex: none;
   order: 0;
   flex-grow: 0;
@@ -169,20 +173,11 @@
   flex-direction: row;
   align-items: center;
   padding: 0px;
-  gap: 12px;
   width: 227px;
   height: 32px;
   flex: none;
   order: 1;
   flex-grow: 0;
-}
-
-.content {
-  border-radius: 12px;
-  margin-bottom: 50px;
-  border: 1px solid #DFE1E6;
-  padding-top: 16px;
-  padding-bottom: 28px;
 }
 
 .content-text-px {
@@ -225,13 +220,11 @@
   display: flex;
   flex-direction: row;
   align-items: center;
-  border: 0px;
   width: 70px;
   height: 24px;
-  background: #EBEBFF;
+  background: #ebebff;
   border-radius: 8px;
   background-size: contain;
-  flex: none;
   order: 0;
   flex-grow: 0;
   margin-left: 5px;
@@ -245,28 +238,18 @@
 .tag-item {
   width: 29px;
   height: 16px;
-  font-family: 'Poppins';
+  font-family: 'poppins', sans-serif !important;
   font-style: normal;
   font-weight: 500;
   font-size: 12px;
   line-height: 16px;
   letter-spacing: 0.03em;
-  color: #6070FF;
+  color: #6070ff;
   padding-left: 7px;
   flex: none;
   order: 0;
   flex-grow: 0;
   align-items: center;
-}
-
-.action {
-  width: 295px;
-  height: 72px;
-  padding-top: 24px;
-  border-radius: 8px;
-  flex: none;
-  order: 3;
-  flex-grow: 0;
 }
 
 .button {
@@ -277,14 +260,14 @@
   padding: 12px;
   gap: 10px;
   background: #fff;
-  border: 1px solid #6070FF;
+  border: 1px solid #6070ff;
   border-radius: 8px;
 }
 
 .button a {
   width: 100px;
   height: 24px;
-  font-family: 'Poppins';
+  font-family: 'poppins', sans-serif !important;
   font-style: normal;
   font-weight: 500;
   font-size: 17px;
@@ -294,7 +277,7 @@
   align-items: center;
   text-align: center;
   letter-spacing: 0.03em;
-  color: #396DF2;
+  color: #396df2;
   flex: none;
   order: 0;
 }
@@ -309,7 +292,6 @@
   order: 3;
   flex-grow: 0;
 }
-
 
 .button-x {
   box-sizing: border-box;
@@ -326,7 +308,7 @@
 .button-x a {
   width: 150px;
   height: 24px;
-  font-family: 'Poppins';
+  font-family: 'poppins', sans-serif !important;
   font-style: normal;
   font-weight: 500;
   font-size: 17px;
@@ -340,12 +322,13 @@
   flex: none;
   order: 0;
 }
-button :hover{
+
+button :hover {
   color: #fff;
 }
 
-.action :hover{
-  background: #6070FF;
+.action :hover {
+  background: #6070ff;
 }
 
 .lang {
@@ -355,8 +338,8 @@ button :hover{
 
 .lang a {
   text-decoration: none;
-  color: #000000;
-  font-family: 'Poppins';
+  color: #000;
+  font-family: 'poppins', sans-serif !important;
   font-style: normal;
   font-weight: 500;
   font-size: 18px;
@@ -366,7 +349,7 @@ button :hover{
 }
 
 .separator {
-  background: #DFE1E6;
+  background: #dfe1e6;
   height: 1px;
   width: 327px;
   margin-top: 23px;
@@ -376,7 +359,7 @@ button :hover{
 .framex {
   width: 303px;
   height: 66.72px;
-  background: #F7F7F9;
+  background: #f7f7f9;
   border-radius: 8px;
   flex: none;
   order: 2;
@@ -387,7 +370,7 @@ button :hover{
 }
 
 .framex a {
-  font-family: 'Poppins';
+  font-family: 'poppins', sans-serif !important;
   font-style: normal;
   font-weight: 500;
   font-size: 15px;
@@ -398,5 +381,3 @@ button :hover{
   padding-top: 20px;
   list-style-type: none;
 }
-
-
