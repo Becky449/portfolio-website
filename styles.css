@@ -27,7 +27,6 @@
 
 .hamburger {
   text-decoration: none;
-  list-style: absolute;
   position: fixed;
   padding-left: 300px;
   left: 16.67%;
@@ -147,7 +146,7 @@
   padding: 16px;
   gap: 12px;
   width: 327px;
-  height: 100vh;
+  min-height: 100vh;
   border-radius: 16px;
   flex: none;
   order: 0;
@@ -369,3 +368,35 @@
   padding-top: 20px;
   list-style-type: none;
 }
+.contact-me {
+  display: flex;
+  flex-direction: column;
+  border-top-left-radius: 65px;
+  height: 779px;
+  background: #6070ff;
+}
+
+footer .content h2 {
+  font-family: 'poppins', sans-serif !important;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 52px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  color: #fff;
+  padding-left: 20px;
+}
+
+footer .content p {
+  font-family: 'poppins', sans-serif !important;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 28px;
+  text-align: center;
+  color: #ebebff;
+}
+
