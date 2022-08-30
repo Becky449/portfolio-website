@@ -210,21 +210,23 @@
 }
 
 .tags ul {
-  
+  text-align: center;
   padding: 0.1px;
+  width: 300px;
+  height: 24px;
 }
 
-.tags li {
-  float: right;
-  align-items: center;
+ul li {
   width: 90px;
   height: 24px;
   background: #ebebff;
   border-radius: 8px;
   background-size: contain;
- 
   margin-left: 5px;
- 
+  list-style: none;
+  float: left;
+  padding-top: 2px;
+  
 }
 
 .tags a {
@@ -242,9 +244,6 @@
   letter-spacing: 0.03em;
   color: #6070ff;
   padding-left: 7px;
-  flex: none;
-  order: 0;
-  flex-grow: 0;
   align-items: center;
 }
 
