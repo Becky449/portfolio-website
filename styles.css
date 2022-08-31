@@ -368,6 +368,7 @@
   padding-top: 20px;
   list-style-type: none;
 }
+
 .contact-me {
   display: flex;
   flex-direction: column;
@@ -426,18 +427,6 @@ form textarea {
   height: 170px;
 }
 
-form .btn{
-  display: flex;
-  flex-direction: row;
-  align-items: center;
-  padding: 12px 16px;
-  width: 140px;
-  height: 48px;
-  background: #fff;
-  border-radius: 8px;
-  margin: 22px 211px 0 0;
-}
-
 .btn {
   width: 108px;
   height: 24px;
@@ -455,10 +444,21 @@ form .btn{
   border: none;
 }
 
-.btn:hover{
+form .btn {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 12px 16px;
+  width: 140px;
+  height: 48px;
+  background: #fff;
+  border-radius: 8px;
+  margin: 22px 211px 0 0;
+}
+
+.btn:hover {
   background-color: #6070ff !important;
   transition: all 0.5s ease-in-out;
   color: #fff !important;
   outline: 1px solid #fff;
 }
-
