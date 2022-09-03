@@ -621,11 +621,10 @@ form .btn {
 
   .content-section > .content3 {
     gap: 12px;
-    align-items: center;
     display: flex;
     flex-direction: column;
     align-items: flex-start;
-    padding: 0px;
+    padding: 1px;
     position: absolute;
     width: 920px;
     height: 268px;
@@ -644,7 +643,7 @@ form .btn {
   .content3 > .content-text {
     width: 920px;
     height: 122px;
-    font-family: 'Poppins';
+    font-family: 'Poppins', sans-serif;
     font-style: normal;
     font-weight: 700;
     font-size: 48px;
@@ -652,7 +651,7 @@ form .btn {
     display: flex;
     align-items: center;
     letter-spacing: 0.37px;
-    color: #091E42;
+    color: #091e42;
     flex: none;
     order: 0;
     flex-grow: 0;
@@ -661,7 +660,7 @@ form .btn {
   .content3 > .content-text-p {
     width: 920px;
     height: 98px;
-    font-family: 'Poppins';
+    font-family: 'Poppins', sans-serif;
     font-style: normal;
     font-weight: 400;
     font-size: 20px;
@@ -675,12 +674,12 @@ form .btn {
   .social-connect{
     width: 117px;
     height: 24px;
-    font-family: 'Poppins';
+    font-family: 'Poppins', sans-serif;
     font-style: normal;
     font-weight: 500;
     font-size: 16px;
     line-height: 24px;
-    color: #7F8CFF;
+    color: #7f8cff;
     flex: none;
     order: 1;
     flex-grow: 0;
@@ -721,8 +720,8 @@ form .btn {
     padding-top: 16px;
     gap: 142px;
     margin: 71px;
-    background: #FFFFFF;
-    border: 1px solid #DFE1E6;
+    background: #fff;
+    border: 1px solid #dfe1e6;
     border-radius: 24px;
   }
 
@@ -733,10 +732,10 @@ form .btn {
     border-radius: 12px;
     gap: 80px;
     background-color: #fff;
-    border: 1px solid #DFE1E6;
+    border: 1px solid #dfe1e6;
     border-radius: 24px;
   }
-  
+
   .block5 {
     display: flex;
     flex-direction: column;
@@ -746,49 +745,48 @@ form .btn {
     width: 544px;
     height: 445px;
   }
-  
+
   .block5 > .post {
     width: 496px;
     height: 46px;
-    font-family: 'Poppins';
+    font-family: 'Poppins', sans-serif;
     font-style: normal;
     font-weight: 700;
     font-size: 40px;
     line-height: 52px;
-    color: #091E42;
+    color: #091e42;
     flex: none;
     order: 0;
     flex-grow: 0;
   }
-  
+ 
   .tags {
     display: flex;
     flex-direction: row;
     align-items: center;
-    padding: 0px;
     gap: 8px;
     height: 24px;
     flex: none;
     order: 2;
     flex-grow: 0;
   }
+
   .tags1 {
     display: flex;
     flex-direction: row;
     align-items: center;
-    padding: 0px;
     gap: 8px;
     height: 24px;
     flex: none;
     order: 2;
     flex-grow: 0;
   }
-  
+
   .block5 > p {
     width: 496px;
     height: 50px;
   }
-   
+
   .block6 {
     width: 544px;
     height: 445px;
@@ -824,7 +822,7 @@ form .btn {
 
   li > .tag-item1 {
     height: 16px;
-    font-family: 'poppins', sans-serif;
+    font-family: 'Poppins', sans-serif;
     font-style: normal;
     font-weight: 500;
     font-size: 12px;
@@ -874,14 +872,14 @@ form .btn {
   .content-x-y > .about1 > .content-text {
     width: 447px;
     height: 114px;
-    font-family: 'Poppins';
+    font-family: 'Poppins', sans-serif;
     font-style: normal;
     font-weight: 700;
     font-size: 40px;
     line-height: 52px;
     display: flex;
     align-items: center;
-    color: #091E42;
+    color: #091e42;
     flex: none;
     order: 0;
     flex-grow: 0;
@@ -890,7 +888,7 @@ form .btn {
   .content-x-y > .about1 > .content-text-p {
     width: 447px;
     height: 102px;
-    font-family: 'Poppins';
+    font-family: 'Poppins', sans-serif;
     font-style: normal;
     font-weight: 400;
     font-size: 16px;
@@ -906,7 +904,7 @@ form .btn {
     left: 24px;
     right: 78px;
     top: calc(50% - 24px/2);
-    font-family: 'Poppins';
+    font-family: 'Poppins', sans-serif;
     font-style: normal;
     font-weight: 500;
     font-size: 20px;
@@ -934,7 +932,7 @@ form .btn {
     height: 120px;
     display: flex;
     flex-direction: column;
-    background: #F7F7F9;
+    background: #f7f7f9;
     border-radius: 8px;
     flex: none;
     order: 1;
@@ -951,7 +949,7 @@ form .btn {
   .framex > a {
     width: 98px;
     height: 24px;
-    font-family: 'Poppins';
+    font-family: 'Poppins', sans-serif;
     font-style: normal;
     font-weight: 500;
     font-size: 15px;
@@ -964,7 +962,7 @@ form .btn {
   .lang a {
     text-decoration: none;
     color: #000;
-    font-family: 'poppins', sans-serif;
+    font-family: 'Poppins', sans-serif;
     font-style: normal;
     font-weight: 500;
     font-size: 18px;
@@ -976,7 +974,7 @@ form .btn {
   .contact-me {
     width: 1440px;
     height: 846px;
-    background: #6070FF;
+    background: #6070ff;
     background-image: url(images/header-bg.png);
     border-top-left-radius: 65px;
   }
@@ -986,7 +984,6 @@ form .btn {
     height: 846px;
     width: 1440px;
     align-items: center;
-    padding: 0px;
     gap: 24px;
   }
 
@@ -994,7 +991,6 @@ form .btn {
     display: flex;
     flex-direction: column;
     align-items: center;
-    padding: 0px;
     gap: 12px;
     width: 801px;
     height: 577px;
@@ -1008,7 +1004,7 @@ form .btn {
   .content4 > h2 {
     width: 801px;
     height: 56px;
-    font-family: 'Poppins';
+    font-family: 'Poppins', sans-serif;
     font-style: normal;
     font-weight: 700;
     font-size: 40px;
@@ -1031,7 +1027,7 @@ form .btn {
     font-size: 20px;
     line-height: 28px;
     text-align: center;
-    color: #EBEBFF;
+    color: #ebebff;
     flex: none;
     order: 0;
     flex-grow: 0;
@@ -1061,7 +1057,7 @@ form .btn {
     background: #fff;
     border: 1px solid #cfd8dc;
     border-radius: 2px;
-    margin: 0 0 18px 0;
+    margin-bottom: 18px;
   }
 
   form textarea {
@@ -1077,10 +1073,11 @@ form .btn {
     align-items: center;
     text-align: center;
   }
+
   .btn {
     width: 108px;
     height: 24px;
-    font-family: 'poppins', sans-serif;
+    font-family: 'Poppins', sans-serif;
     font-style: normal;
     font-weight: 500;
     font-size: 17px;
@@ -1094,7 +1091,7 @@ form .btn {
     border: none;
     padding-left: 100px; 
   }
-  
+
   form .btn {
     display: flex;
     flex-direction: row;
@@ -1107,14 +1104,14 @@ form .btn {
     margin-left: 200px;
     text-align: center;
   }
-  
+
   .btn:hover {
     background-color: #6070ff;
     transition: all 0.5s ease-in-out;
     color: #fff;
     outline: 1px solid #fff;
   }
-  
+
   .btn:active {
     background-color: #2230d2;
   }
