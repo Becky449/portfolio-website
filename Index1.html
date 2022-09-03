@@ -1,0 +1,347 @@
+@media screen and (min-device-width: 768px){
+    .nav-bar {
+     display: flex;
+     align-items: center;
+     justify-content: space-between;
+     padding-left: 50;
+     
+     color: #6070ff;
+     text-decoration: none;
+     width: 1440px;
+     height: 72px;
+ 
+    }
+ 
+   .hamburger{
+     display: none;
+   }
+   nav{
+     display: flex;
+    
+     width: 90%;
+     justify-content: right;
+     align-items: right;
+     
+     
+ 
+   }
+   .nav-items{
+     display: flex;
+     flex-direction: row;
+     padding-left: 0px;
+     gap: 80px;
+   }
+ 
+   .nav-items li {
+     list-style-type: none;
+   }
+   .nav-items li a{
+     text-decoration: none;
+     color:  #344563;
+     font-family: 'Poppins';
+     font-style: normal;
+     font-weight: 500;
+     font-size: 15px;
+     line-height: 20px; 
+   }
+   .logo {
+     padding-left: 30px;
+   }
+ 
+   .content-section{
+     background-image: url(images/header-bg.png);
+    
+     background-size: cover;
+     width: 1440px;
+     height: 100vh;
+   }
+   .content {
+     padding-top: 10%;
+     gap: 12px;
+    align-items: center;
+    padding-left:400px;
+    
+   }
+   .content-text {
+     position: static;
+     width: 920px;
+     height: 122px;
+     font-family: 'Poppins', sans-serif;
+     font-style: normal;
+     font-weight: 700;
+     font-size: 48px;
+     line-height: 60px;
+     display: flex;
+     align-items: center;
+     letter-spacing: 0.37px;
+     color: #091E42;
+     flex: none;
+     order: 0;
+     flex-grow: 0;
+   }
+   
+   .content-text-p {
+     position: static;
+     width: 920px;
+     height: 98px;
+     font-family: 'Poppins', sans-serif;
+     font-style: normal;
+     font-weight: 400;
+     font-size: 20px;
+     line-height: 28px;
+     color: #344563;
+     flex: none;
+     order:1;
+     flex-grow: 0;
+   }
+   .works {
+     background-color: white;
+     display: flex;
+     flex-direction: column;
+     align-items: center;
+     padding: 16px;
+     gap: 12px;
+     width: 1440px;
+     min-height: 100vh;
+     border-radius: 16px;
+     flex: none;
+     order: 0;
+     flex-grow: 0;
+   }
+   .content1 {
+     display: flex;
+     width: 1156px;
+     height: 496px;
+     padding: 80px 20px;
+     border-radius: 12px;
+     margin-bottom: 50px;
+     gap:80px;
+     padding-top: 16px;
+     padding-bottom: 28px;
+     background-color: #091E42;
+     padding-right: 0px;
+   }
+   
+   .content-x{
+     display: flex;
+     width: 1440px;
+     height: 496px;
+     gap:80px;
+   }
+ 
+   .about {
+     
+   }
+   
+ }
+ <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portfolio website</title>
+    <link rel="stylesheet" href="styles.css">  
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap"  rel="stylesheet">
+</head>
+<body>
+    
+    <header class="nav-bar">
+        <a href="#" class="logo">My Logo</a>
+        <nav>
+            <button type="button" class="hamburger">&#9776;</button>
+            <ul class="nav-items">
+                <li><a href="">Portfolio</a></li>
+                <li><a href="">About</a></li>
+                <li><a href="">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section class="content-section">
+            <div class="content">
+                <h1 class="content-text">I'm Rabecca Glad to see you!</h1>
+                <p class="content-text-p">I'm a software developer! I can help you build a product , feature or website Look through some of my work and experience! If you like what you see and have a project you need coded, don't hestiate to contact me.</p>
+                <a href="#" class="social-connect">LET'S CONNECT</a>
+                <ul class="social-list">
+                    <li class="social-media-icons"><a href="https://twitter.com"><img src="images/twitter.svg" alt=""></a></li>
+                    <li class="social-media-icons"><a href="https://www.linkedin.com"><img src="images/linkedin.svg" alt=""></a></li>
+                    <li class="social-media-icons"><a href=""><img src="images/m.svg" alt=""></a></li>
+                    <li class="social-media-icons"><a href="https://github.com"><img src="images/github.svg" alt=""></a></li>
+                    <li class="social-media-icons"><a href="https://chilldigital.com.au"><img src="images/v3.svg" alt=""></a></li>
+                </ul>
+                
+            </div>
+        </section>
+       <section class="works">
+        
+       <div class="content1">
+         <div class="row1">
+                <img src="images/snap1.png" alt="snapshoot-porfolio">
+         </div>
+         <div class="row2">
+                <h2>Tonic</h2>
+            <div class="frame">
+                <img src="images/Frame2.png" alt="tabs">
+            </div>
+            <p class="content-text-px">A daily selection of privately personalized reads; no accounts or sign-ups required.</p>
+            <div class="tags">
+                <ul>
+                    <li><a href="#" class="tag-item">html</a></li>
+                    <li><a href="#" class="tag-item">css</a></li>
+                    <li><a href="#" class="tag-item">javascript</a></li>
+                </ul>
+            </div>
+            <div class="action">
+                <button type="button" class="button"> See Project</button>
+            </div>
+         </div>
+        </div>
+
+        <div class="content1">
+            
+            <div class="row2">
+                   <h2>Tonic</h2>
+               <div class="frame">
+                   <img src="images/Frame2.png" alt="tabs">
+               </div>
+               <p class="content-text-px">A daily selection of privately personalized reads; no accounts or sign-ups required.</p>
+               <div class="tags">
+                   <ul>
+                       <li><a href="#" class="tag-item">html</a></li>
+                       <li><a href="#" class="tag-item">css</a></li>
+                       <li><a href="#" class="tag-item">javascript</a></li>
+                   </ul>
+               </div>
+               <div class="action">
+                   <button type="button" class="button"> See Project</button>
+               </div>
+            </div>
+            <div class="row1">
+                <img src="images/snappy3.png" alt="snapshoot-porfolio">
+         </div>
+           </div>
+         
+
+           <div class="content1">
+            <div class="row1">
+                   <img src="images/snappy4.png" alt="snapshoot-porfolio">
+            </div>
+            <div class="row2">
+                   <h2>Tonic</h2>
+               <div class="frame">
+                   <img src="images/Frame2.png" alt="tabs">
+               </div>
+               <p class="content-text-px">A daily selection of privately personalized reads; no accounts or sign-ups required.</p>
+               <div class="tags">
+                   <ul>
+                       <li><a href="#" class="tag-item">html</a></li>
+                       <li><a href="#" class="tag-item">css</a></li>
+                       <li><a href="#" class="tag-item">javascript</a></li>
+                   </ul>
+               </div>
+               <div class="action">
+                   <button type="button" class="button"> See Project</button>
+               </div>
+            </div>
+           </div>
+           <div class="content1">
+            
+            <div class="row2">
+                   <h2>Tonic</h2>
+               <div class="frame">
+                   <img src="images/Frame2.png" alt="tabs">
+               </div>
+               <p class="content-text-px">A daily selection of privately personalized reads; no accounts or sign-ups required.</p>
+               <div class="tags">
+                   <ul>
+                       <li><a href="#" class="tag-item">html</a></li>
+                       <li><a href="#" class="tag-item">css</a></li>
+                       <li><a href="#" class="tag-item">javascript</a></li>
+                   </ul>
+               </div>
+               <div class="action">
+                   <button type="button" class="button"> See Project</button>
+               </div>
+            </div>
+            <div class="row1">
+                <img src="images/snappy5.png" alt="snapshoot-porfolio">
+         </div>
+           </div>
+        
+        </div>
+        </div>
+        <div>
+            <div class="content-x">
+                <div class="about">
+                <h2 class="content-text">About
+                    Myself</h2>
+                <p class="content-text-p">I'm a software developer! I can help you build a product , feature or website Look through some of my work and experience! If you like what you see and have a project you need coded, don't hestiate to contact me.</p>
+                <a href="#" class="social-connect">LET'S CONNECT</a>
+                <ul class="social-list">
+                    <li class="social-media-icons"><a href="https://twitter.com"><img src="images/twitter.svg" alt=""></a></li>
+                    <li class="social-media-icons"><a href="https://www.linkedin.com"><img src="images/linkedin.svg" alt=""></a></li>
+                    <li class="social-media-icons"><a href=""><img src="images/m.svg" alt=""></a></li>
+                    <li class="social-media-icons"><a href="https://github.com"><img src="images/github.svg" alt=""></a></li>
+                    <li class="social-media-icons"><a href="https://chilldigital.com.au"><img src="images/v3.svg" alt=""></a></li>
+                </ul>
+                <div class="action">
+                    <button type="button" class="button-x">Get My Resume</button>
+                </div>
+                </div>
+                <div>
+                  <ul>
+                    <li class="lang"><a href="">Languages</a></li>
+                    </ul>
+                    <ul>
+                        <li class="framex"><img src="images/Ellipse1.png" alt=""><a href="">Javascript</a></li>
+                        <li class="framex"><img src="images/Ellipse2.png" alt=""><a href="">Html</a></li>
+                        <li class="framex"><img src="images/Ellipse3.png" alt=""><a href="">CSS</a></li>
+                    </ul>
+                    <ul>
+                    <li class="lang"><a href="">Frameworks</a></li>
+                    <li class="separator"></li>
+                    <li class="lang"><a href="">Skills</a></li>
+                    <li class="separator"></li>
+                  </ul>
+                  </div>
+            </div>
+            
+        </div>
+        <footer> 
+            <section class="contact-me">
+                <div class="content">
+                    <h2>
+                        Contact me
+                    </h2>
+                    <p>
+            If you have an application you are interested in developing, a feature that you need built or a project that needs coding. I’d love to help with it </p>
+                    <form action="https://formspree.io/f/mknegeno" method="POST">
+                        <input class="name" name="Name" type="text" maxlength="30" placeholder="Becky" required>
+                        <input class="email" type="email" name="email" placeholder="becky@gmail.com" required>
+                        <textarea placeholder="Write Your Message Here" id="sheet" name="message" cols="30" rows="10" maxlength="500" required></textarea>
+                        <button class="btn" value="submit" type="submit">
+                         Get It Touch
+                        </button>
+                    </form>
+                </div>
+            </section>
+        </footer>
+       </section>
+       
+      </main>
+      
+    </body>
+</html>
+
+
+@keyframes anime {
+    from {
+      transform: rotate(360deg);
+    }
+  
+    to {
+      transform: rotate(90deg);
+    }
+  }
+  
