@@ -706,6 +706,9 @@ form .btn {
     height: 448px;
     padding: 24px 24px 24px 1px;
   }
+   img {
+    animation-name: image;
+   }
 
   .works {
     background-color: #e5e5e5;
