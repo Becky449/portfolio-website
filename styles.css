@@ -261,52 +261,6 @@ text-decoration: none;
 color: #6070ff;
 }
 
-/* .tags {
-  width: 203px;
-  height: 24px;
-}
-
-.tags ul {
-  display: flex;
-  flex-direction: row;
-  padding: 0.1px;
-}
-
-.tags li {
-  display: flex;
-  flex-direction: row;
-  align-items: center;
-  width: 100px;
-  height: 24px;
-  background: #ebebff;
-  border-radius: 8px;
-  background-size: contain;
-  order: 0;
-  flex-grow: 0;
-  margin-left: 5px;
-  float: left;
-}
-
-.tags a {
-  text-decoration: none;
-} */
-
-/* .tag-item {
-  height: 16px;
-  font-family: 'poppins', sans-serif;
-  font-style: normal;
-  font-weight: 500;
-  font-size: 12px;
-  line-height: 16px;
-  letter-spacing: 0.03em;
-  color: #6070ff;
-  padding-left: 7px;
-  flex: none;
-  order: 0;
-  flex-grow: 0;
-  align-items: center;
-} */
-
 .button {
   display: flex;
   flex-direction: row;
@@ -761,25 +715,6 @@ form .btn {
     flex-grow: 0;
   }
 
-  /* .tags {
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    height: 24px;
-    flex: none;
-    order: 2;
-    /*outline: 4px solid black;
-  }
-
-  .tags1 {
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    height: 24px;
-    flex: none;
-    order: 2;
-    outline: 4px solid yellow;
-  } */
   ul {
     width: 100%;
   }
