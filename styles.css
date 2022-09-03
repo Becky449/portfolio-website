@@ -586,6 +586,31 @@ form .btn {
     flex-grow: 0;
   }
 
+  .framex > a {
+    width: 98px;
+    height: 24px;
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 20px;
+    display: flex;
+    align-items: center;
+    color: #253858;
+  }
+
+  .lang a {
+    text-decoration: none;
+    color: #000;
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 24px;
+    margin-top: 10px;
+    padding-top: 5px;
+  }
+
   .nav-items > li > a {
     text-decoration: none;
     color: #344563;
@@ -629,15 +654,7 @@ form .btn {
     width: 920px;
     height: 268px;
     left: 260px;
-    top: calc(50% - 268px/2);
-  }
-
-  .content4 {
-    padding-top: 10%;
-    gap: 12px;
-    align-items: center;
-    padding-left: 400px;
-    margin-bottom: 50px;
+    top: calc(50% - 268px / 2);
   }
 
   .content3 > .content-text {
@@ -671,7 +688,7 @@ form .btn {
     flex-grow: 0;
   }
 
-  .social-connect{
+  .social-connect {
     width: 117px;
     height: 24px;
     font-family: 'Poppins', sans-serif;
@@ -722,7 +739,6 @@ form .btn {
     margin: 71px;
     background: #fff;
     border: 1px solid #dfe1e6;
-    border-radius: 24px;
   }
 
   .content1 {
@@ -847,7 +863,7 @@ form .btn {
     flex-direction: row;
     align-items: center;
     padding-top: 100px;
-    gap: 80px 
+    gap: 80px; 
   }
 
   .content-x-y > .about1 {
@@ -885,7 +901,7 @@ form .btn {
     flex-grow: 0;
   }
 
-  .content-x-y > .about1 > .content-text-p {
+  .content-x-y >.about1 >.content-text-p {
     width: 447px;
     height: 102px;
     font-family: 'Poppins', sans-serif;
@@ -899,11 +915,11 @@ form .btn {
     flex-grow: 0;
   }
   
-  .content-x-y > .about2 > .lang {
+  .content-x-y >.about2 >.lang {
     height: 24px;
     left: 24px;
     right: 78px;
-    top: calc(50% - 24px/2);
+    top: calc(50% - 24px / 2);
     font-family: 'Poppins', sans-serif;
     font-style: normal;
     font-weight: 500;
@@ -944,31 +960,6 @@ form .btn {
     width: 48px;
     height: 48px;
     align-items: center;
-  }
-
-  .framex > a {
-    width: 98px;
-    height: 24px;
-    font-family: 'Poppins', sans-serif;
-    font-style: normal;
-    font-weight: 500;
-    font-size: 15px;
-    line-height: 20px;
-    display: flex;
-    align-items: center;
-    color: #253858;
-  }
-
-  .lang a {
-    text-decoration: none;
-    color: #000;
-    font-family: 'Poppins', sans-serif;
-    font-style: normal;
-    font-weight: 500;
-    font-size: 18px;
-    line-height: 24px;
-    margin-top: 10px;
-    padding-top: 5px;
   }
 
   .contact-me {
