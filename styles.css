@@ -133,7 +133,8 @@ body {
   .block6 {
     display: none;
   }
-  br{
+
+  br {
     display: none;
   }
 }
@@ -528,11 +529,12 @@ form .btn {
 }
 
 @media screen and (min-device-width: 768px) {
-  *{
+  * {
     box-sizing: border-box;
     margin: 0;
     padding: 0;
   }
+
   body {
     margin: 0 auto;
     width: 100%;
@@ -565,7 +567,6 @@ form .btn {
     display: flex;
     flex-direction: row;
     align-items: center;
-    padding: 0px;
     gap: 8px;
     width: 259px;
     height: 40px;
@@ -599,11 +600,10 @@ form .btn {
     align-items: center;
     text-align: center;
   }
-  
+
   .header-section {
     width: 100%;
     height: 846px;
-    left: 0px;
     top: 71px;
     background-color: #fff;
     border-bottom-left-radius: 50px;
