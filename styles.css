@@ -708,8 +708,18 @@ form .btn {
   }
    img {
     animation-name: image;
+    animation-duration: 3s;
    }
 
+   @keyframes image {
+    from {
+      transform: rotate(360deg);
+    }
+
+    to {
+      transform: rotate(90deg);
+    }
+  }
   .works {
     background-color: #e5e5e5;
     display: flex;
