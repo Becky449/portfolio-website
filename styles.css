@@ -528,31 +528,31 @@ form .btn {
 }
 
 @media screen and (min-device-width: 768px) {
-   .hamburger {
-     display: none;
-   }
-
-   .nav-items {
-     display: flex;
-     flex-direction: row;
-     gap: 50px;
-     padding-right: 80px;
+  .hamburger {
+    display: none;
   }
 
-  .nav-items li {
-     list-style-type: none;
+  .nav-items {
+    display: flex;
+    flex-direction: row;
+    gap: 50px;
+    padding-right: 80px;
   }
 
-  .nav-items li a {
+  .nav-items > li {
+    list-style-type: none;
+  }
+
+  .nav-items > li > a {
     text-decoration: none;
-    color:  #344563;
+    color: #344563;
     font-family: 'Poppins', sans-serif;
     font-style: normal;
     font-weight: 500;
     font-size: 15px;
-    line-height: 20px; 
+    line-height: 20px;
   }
- 
+
   .content-section {
     background-image: url(images/headerbg.png);
     background-repeat: no-repeat;
@@ -568,9 +568,9 @@ form .btn {
     padding-top: 10%;
     gap: 12px;
     align-items: center;
-    padding-left:400px;
-  } 
-
+    padding-left: 400px;
+  }
+  
   .content4 {
     padding-top: 10%;
     gap: 12px;
@@ -660,7 +660,7 @@ form .btn {
 
   .block6 {
     width: 544px;
-    height:445px;
+    height: 445px;
   }
 
   .block6 > p {
@@ -669,7 +669,7 @@ form .btn {
   }
 
   .block2 {
-   display: none;
+    display: none;
   }
 
   .content2 {
@@ -746,9 +746,9 @@ form .btn {
     flex-grow: 0;
     padding-top: 142px;
   }
-  
+
   .content4 > h2 {
-    color:#fff;
+    color: #fff;
     width: 801px;
     height: 56px;
     font-family: 'Poppins', sans-serif;
@@ -761,12 +761,12 @@ form .btn {
     text-align: center;
     padding-left: 50px;
   }
-  
+
   .contact-me-1 > .content > h2 {
     text-align: center;
     justify-content: center;
   }
-  
+
   .content4 > p {
     width: 569px;
     height: 102px;
@@ -781,7 +781,7 @@ form .btn {
     order: 1;
     flex-grow: 0;
   }
-  
+
   .contact-me-1 > .content > p {
     width: 569px;
     height: 102px;
