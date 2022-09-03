@@ -749,7 +749,6 @@ form .btn {
     gap: 80px;
     background-color: #fff;
     border: 1px solid #dfe1e6;
-    border-radius: 24px;
   }
 
   .block5 {
@@ -775,7 +774,7 @@ form .btn {
     order: 0;
     flex-grow: 0;
   }
- 
+
   .tags {
     display: flex;
     flex-direction: row;
@@ -863,7 +862,7 @@ form .btn {
     flex-direction: row;
     align-items: center;
     padding-top: 100px;
-    gap: 80px; 
+    gap: 80px;
   }
 
   .content-x-y > .about1 {
@@ -901,7 +900,7 @@ form .btn {
     flex-grow: 0;
   }
 
-  .content-x-y >.about1 >.content-text-p {
+  .content-x-y > .about1 > .content-text-p {
     width: 447px;
     height: 102px;
     font-family: 'Poppins', sans-serif;
@@ -914,8 +913,8 @@ form .btn {
     order: 1;
     flex-grow: 0;
   }
-  
-  .content-x-y >.about2 >.lang {
+
+  .content-x-y > .about2 > .lang {
     height: 24px;
     left: 24px;
     right: 78px;
@@ -1080,7 +1079,7 @@ form .btn {
     color: #6070ff;
     background-color: #fff;
     border: none;
-    padding-left: 100px; 
+    padding-left: 100px;
   }
 
   form .btn {
@@ -1106,4 +1105,5 @@ form .btn {
   .btn:active {
     background-color: #2230d2;
   }
+  
 }
