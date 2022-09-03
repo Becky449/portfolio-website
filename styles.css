@@ -525,7 +525,7 @@ form .btn {
 
 .btn:active {
   background-color: #2230d2;
-} 
+}
 
 @media screen and (min-device-width: 768px) {
    .hamburger {
@@ -748,26 +748,6 @@ form .btn {
     flex-grow: 0;
     padding-top: 142px;
   }
-
-  .contact-me-1 > .content > h2 {
-    text-align: center;
-    justify-content: center;
-  }
-
-  .contact-me-1 .content  p {
-    width: 569px;
-    height: 102px;
-    padding-bottom: 10px;
-  }
-
-  .form1 {
-    flex-direction: column;
-    width: 447px;
-    height: 395px;
-    display: flex;
-    align-items: center;
-    gap: 27px;
-  }
   
   .content4 h2 {
     color:#fff;
@@ -783,9 +763,13 @@ form .btn {
     text-align: center;
     padding-left: 50px;
   }
-
+  
+  .contact-me-1 > .content > h2 {
+    text-align: center;
+    justify-content: center;
+  }
+  
   .content4 p {
-    color:white;
     width: 569px;
     height: 102px;
     font-family: 'Poppins', sans-serif;
@@ -798,5 +782,20 @@ form .btn {
     flex: none;
     order: 1;
     flex-grow: 0;
+  }
+  
+  .contact-me-1 .content  p {
+    width: 569px;
+    height: 102px;
+    padding-bottom: 10px;
+  }
+
+  .form1 {
+    flex-direction: column;
+    width: 447px;
+    height: 395px;
+    display: flex;
+    align-items: center;
+    gap: 27px;
   }
 }
