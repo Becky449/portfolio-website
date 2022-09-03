@@ -575,7 +575,7 @@ form .btn {
     padding-top: 10%;
     gap: 12px;
     align-items: center;
-    padding-left:400px;
+    padding-left: 400px;
     margin-bottom: 50px;
   }
 
@@ -608,7 +608,7 @@ form .btn {
     line-height: 28px;
     color: #344563;
     flex: none;
-    order:1;
+    order: 1;
     flex-grow: 0;
   }
 
@@ -619,17 +619,17 @@ form .btn {
   .snap1 {
     width: 544px;
     height: 448px;
-    padding: 24px 0px 24px 24px;
+    padding: 24px 1px 24px 24px;
   }
 
   .snappy3 {
     width: 544px;
     height: 448px;
-    padding: 24px 24px 24px 0px;
+    padding: 24px 24px 24px 1px;
   }
 
   .works {
-    background-color:  #e5e5e5;
+    background-color: #e5e5e5;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -654,9 +654,8 @@ form .btn {
     width: 1156px;
     height: 496px;
     border-radius: 12px;
-    gap:80px;
+    gap: 80px;
     background-color: #fff;
-    padding-bottom: 0px;
   }
 
   .block6 {
@@ -679,13 +678,13 @@ form .btn {
     width: 1156px;
     height: 496px;
     border-radius: 12px;
-    gap:80px;
+    gap: 80px;
     background-color: #fff;
   }
 
   .block3 {
     width: 544px;
-    height:445px;
+    height: 445px;
   }
 
   .block5 > p {
@@ -740,7 +739,6 @@ form .btn {
     display: flex;
     flex-direction: column;
     align-items: center;
-    padding: 0px;
     width: 1440px;
     height: 700px;
     flex: none;
@@ -749,7 +747,7 @@ form .btn {
     padding-top: 142px;
   }
   
-  .content4 h2 {
+  .content4 > h2 {
     color:#fff;
     width: 801px;
     height: 56px;
@@ -769,7 +767,7 @@ form .btn {
     justify-content: center;
   }
   
-  .content4 p {
+  .content4 > p {
     width: 569px;
     height: 102px;
     font-family: 'Poppins', sans-serif;
@@ -784,7 +782,7 @@ form .btn {
     flex-grow: 0;
   }
   
-  .contact-me-1 .content  p {
+  .contact-me-1 > .content > p {
     width: 569px;
     height: 102px;
     padding-bottom: 10px;
