@@ -227,8 +227,7 @@ body {
 
 .content-x {
   align-items: center;
-  flex-direction: column;
-  /* background-color: #fff; */
+  flex-direction: column; 
 }
 
 .post {
@@ -241,16 +240,28 @@ body {
 }
 
 .tags1 ul li{
-margin-right: 2rem;
-list-style: none;
-background: #ebebff;
-border-radius: 8px;
-padding: 8px;
+  margin-right: 2rem;
+  list-style: none;
+  background: #ebebff;
+  border-radius: 8px;
+  padding: 8px;
+}
+
+.lang a {
+  text-decoration: none;
+  color: #000;
+  font-family: 'poppins', sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 24px;
+  margin-top: 10px;
+  padding-top: 5px;
 }
 
 .tags1 ul li a {
-text-decoration: none;
-color: #6070ff;
+  text-decoration: none;
+  color: #6070ff;
 }
 
 .button {
@@ -319,18 +330,6 @@ color: #6070ff;
 .lang {
   display: flex;
   align-items: center;
-}
-
-.lang a {
-  text-decoration: none;
-  color: #000;
-  font-family: 'poppins', sans-serif;
-  font-style: normal;
-  font-weight: 500;
-  font-size: 18px;
-  line-height: 24px;
-  margin-top: 10px;
-  padding-top: 5px;
 }
 
 .separator {
