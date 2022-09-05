@@ -660,7 +660,6 @@ form .btn {
     gap: 12px;
     width: 100%;
     border-radius: 16px;
-    outline: 4px solid yellow;
   }
 
   .content {
