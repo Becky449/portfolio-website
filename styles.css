@@ -17,6 +17,7 @@ body {
   color: #6070ff;
   width: 100%;
 }
+
 .logo {
   display: flex;
   flex-direction: row;
@@ -55,13 +56,13 @@ body {
   width: 100%;
   background-color: white;
   border: 1px solid #dfe1e6;
-  margin-bottom: 50px ;
+  margin-bottom: 50px;
 }
 
 .content {
   padding: 16px;
   background-color: #fff;
-  border: 1px solid #DFE1E6;
+  border: 1px solid #dfe1e6;
   border-radius: 16px;
   height: 552px;
   margin-bottom: 50px;
@@ -137,7 +138,7 @@ body {
   .block5 {
     display: none;
   }
-  
+
   .block6 {
     display: none;
   }
@@ -259,6 +260,7 @@ body {
 .about1 .content-text {
   width: 50%;
 }
+
 .post {
   padding-bottom: 30px;
 }
@@ -432,10 +434,10 @@ footer .content4 p {
 }
 
 form {
- display: flex;
- flex-direction: column;
- width: 100%;
- align-items: center;
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  align-items: center;
 }
 
 form .name {
@@ -543,7 +545,6 @@ form .btn {
     display: flex;
     flex-direction: row;
     align-items: center;
-    padding: 0px;
     gap: 8px;
     position: absolute;
     width: 20%;
@@ -554,7 +555,7 @@ form .btn {
 
   .logo a {
     width: 20%;
-    font-family: 'Poppins';
+    font-family: 'Poppins', sans-serif;
     font-style: normal;
     font-weight: 700;
     font-size: 18px;
@@ -562,9 +563,9 @@ form .btn {
     display: flex;
     align-items: center;
     text-align: center;
-    color: #6070FF;
+    color: #6070ff;
     flex: none;
-    padding-left: 5s0px;
+    padding-left: 50px;
   }
 
   .nav-items > li {
