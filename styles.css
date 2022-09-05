@@ -240,6 +240,7 @@ body {
   align-items: center;
   flex-direction: column;
 }
+
 .content-x-y {
   width: 100%;
   display: flex;
