@@ -11,16 +11,27 @@
 <body>
     <main>
     <header class="nav-bar">
+        <nav>
         <div class="logo">
         <a href="#">My Logo</a>
     </div>
-        <nav>
-            <button type="button" class="hamburger">&#9776;</button>
-            <ul class="nav-items">
-                <li><a href="">Portfolio</a></li>
-                <li><a href="">About</a></li>
-                <li><a href="">Contact</a></li>
+     <ul class="nav-items">
+                <li class="nav-item">
+                    <a href="#portfolio" class="nav-link">Portfolio</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#about" class="nav-link">About</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#contact" class="nav-link">Contact</a>
+                </li>
             </ul>
+            <div class="hamburger">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </div>
+          
         </nav>
     </header>
        <div class="header-section">
@@ -41,7 +52,7 @@
     </div>
         </main>
 
-    <section class="works">
+    <section class="works" id="portfolio">
          <div class="content">
             <div class="content1">
                 <div class="block1">
@@ -231,7 +242,7 @@
         </div>
             
            
-               <div class="content-x">
+               <div class="content-x" id="about">
                    <div class="content-x-y">
                        <div class="about1">
                    <h2 class="content-text">About
@@ -269,7 +280,7 @@
            </div>
 
            <footer> 
-               <section class="contact-me">
+               <section class="contact-me" id="contact">
                    <div class="contact-me-1">
                    <div class="content4">
                        <h2>
@@ -290,5 +301,6 @@
                </section>
            </footer>
           </section>
+          <script src="script.js"></script>
         </body>
    </html>
