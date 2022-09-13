@@ -10,12 +10,81 @@ body {
   align-items: center;
 }
 
+nav {
+  display: flex;
+}
+
 .nav-bar {
   display: flex;
   align-items: center;
-  background-color: #ffff;
+  background-color: #fff;
   color: #6070ff;
   width: 100%;
+  position: fixed;
+}
+
+.hamburger {
+  display: block;
+  padding-left: 250px;
+  padding-top: 10px;
+}
+
+.hamburger.active .bar:nth-child(2) {
+  opacity: 0;
+}
+
+.hamburger.active .bar:nth-child(1) {
+  transform: translateY(8px) rotate(45deg);
+  background-color: #fff;
+}
+
+.hamburger.active .bar:nth-child(3) {
+  transform: translateY(-8px) rotate(-45deg);
+  background-color: #fff;
+}
+
+.bar {
+  display: block;
+  width: 25px;
+  height: 3px;
+  margin: 5px auto;
+  -webkit-transition: all 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out;
+  background-color: black;
+}
+
+.nav-items {
+  position: fixed;
+  left: -100%;
+  gap: 0;
+  flex-direction: column;
+  background-color: #6070FF;
+  opacity: 0.9;
+  width: 100%;
+  height: 100%;
+  text-align: left;
+  transition: 0.3s;
+  padding-left: 20px;
+  padding-top: 70px;
+}
+
+.nav-link  {
+  color: #fff;
+  text-decoration: none;
+  gap: 100px;
+  font-family: 'Poppins', sans-serif;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 32px;
+  line-height: 44px;
+}
+
+.nav-item {
+  margin: 16px 0;
+}
+
+.nav-items.active {
+  left: 0;
 }
 
 .logo {
@@ -36,16 +105,6 @@ body {
   align-items: center;
   text-align: center;
   color: #6070ff;
-}
-
-.hamburger {
-  padding-left: 300px;
-  left: 16.67%;
-  right: 16.67%;
-  font-size: larger;
-  border: none;
-  color: #6070ff;
-  background-color: transparent;
 }
 
 .content-section {
@@ -123,10 +182,6 @@ body {
   }
 
   .ruby {
-    display: none;
-  }
-
-  .nav-items {
     display: none;
   }
 
@@ -521,6 +576,9 @@ form .btn {
 
   .hamburger {
     display: none;
+    cursor: pointer;
+    padding-left: 0.5px;
+    padding-top: 0.5px;
   }
 
   .logo {
@@ -551,6 +609,8 @@ form .btn {
     height: 5%;
     left: 70%;
     top: 16px;
+    background-color: #fff;
+    padding-top: 0.5px;
   }
 
   .logo a {
