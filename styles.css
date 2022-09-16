@@ -371,8 +371,6 @@ nav {
   background: #fff;
   border: 1px solid #6070ff;
   border-radius: 8px;
-  width: 130px;
-  height: 48px;
   font-family: 'poppins', sans-serif;
   font-style: normal;
   font-weight: 500;
@@ -437,6 +435,13 @@ nav {
   width: 327px;
   margin-top: 23px;
   list-style-type: none;
+}
+
+.beck {
+  background-color: #fff;
+  width: 100%;
+  margin: 3rem 0;
+  padding: 16px;
 }
 
 .framex {
@@ -522,8 +527,8 @@ form textarea {
 }
 
 .btn {
-  width: 108px;
-  height: 24px;
+  width: 200px;
+  height: 50px;
   font-family: 'poppins', sans-serif;
   font-style: normal;
   font-weight: 500;
@@ -1058,8 +1063,8 @@ form .btn {
   }
 
   .btn {
-    width: 108px;
-    height: 24px;
+    width: 150px;
+    height: 50px;
     font-family: 'Poppins', sans-serif;
     font-style: normal;
     font-weight: 500;
