@@ -1,0 +1,404 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800;900&display=swap');
+
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  background-color: #e5e5e5;
+  font-family: 'Poppins', sans-serif;
+}
+
+.p-pop-hide {
+  display: none;
+}
+
+.background {
+  background-color: #c1c7d0;
+  mix-blend-mode: multiply;
+  backdrop-filter: blur(0.5rem);
+  position: fixed;
+  width: 100vw;
+  height: 100vh;
+  z-index: 99;
+  top: 0;
+  left: 0;
+}
+
+.cont {
+  background-color: #e5e5e5;
+  padding: 0 5%;
+}
+
+.x-button {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 16px;
+  gap: 12px;
+  height: auto;
+}
+
+.p-cards {
+  display: flex;
+  gap: 0.625rem;
+}
+
+.cardimage {
+  max-width: 295px;
+  max-height: 220px;
+}
+
+.c-list {
+  margin-right: 1.56rem;
+  color: #7a869a;
+  font-size: 0.81rem;
+  font-weight: 600;
+  line-height: 1rem;
+}
+
+.one {
+  list-style: none;
+  color: #344563 !important;
+}
+
+.button {
+  background-color: #b7bcff;
+  text-align: center;
+  height: 24px;
+  border-radius: 8px;
+  border: none;
+  color: #6070ff;
+  padding: 0 12px 0 12px;
+  transition: 0.25s;
+  cursor: pointer;
+}
+
+.button:hover {
+  border-radius: 30px;
+  background-color: #1818eb;
+  color: #b7bcff;
+}
+
+.see-button {
+  color: #396df2;
+  font-size: 17px;
+  font-weight: 500;
+  line-height: 24px;
+  margin-top: 56px;
+  border: 1px solid #396df2;
+  padding: 12px;
+  border-radius: 10px;
+  background-color: #fff;
+}
+
+.see-button:hover {
+  background-color: #6070ff;
+  color: white;
+}
+
+.see-button:active {
+  background-color: #2230d2;
+  color: white;
+}
+
+.x-button {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 16px;
+  gap: 12px;
+  height: auto;
+}
+
+.button {
+  background-color: #b7bcff;
+  text-align: center;
+  height: 24px;
+  border-radius: 8px;
+  border: none;
+  color: #6070ff;
+  padding: 0 12px 0 12px;
+  transition: 0.25s;
+  cursor: pointer;
+}
+
+.button:hover {
+  border-radius: 30px;
+  background-color: #1818eb;
+  color: #b7bcff;
+}
+
+.p-cards {
+  display: flex;
+  gap: 0.625rem;
+}
+
+.beck .c-title .p-cards {
+  margin: 0.8rem 0;
+}
+
+.cardimage {
+  max-width: 295px;
+  max-height: 220px;
+}
+
+.p-pop {
+  overflow-y: auto;
+  display: flex;
+  flex-direction: column;
+  background-color: white;
+  border: 5px solid #dfe1e6;
+  border-radius: 1em;
+  position: fixed;
+  padding: 2em;
+  z-index: 99;
+  top: 1em;
+  bottom: 1em;
+  right: 1em;
+  left: 1em;
+}
+
+.p-header {
+  color: #172b4d;
+  line-height: 1.75em;
+  font-weight: 700;
+}
+
+.p-header > h2 {
+  font-size: 32px;
+  line-height: 44px;
+  font-weight: 700;
+  margin-bottom: 22px;
+}
+
+.p-header > p {
+  font-size: 13px;
+  line-height: 16px;
+  color: #344563;
+  font-weight: 600;
+  text-transform: uppercase;
+  margin-bottom: 20px;
+}
+
+.pop-img {
+  min-height: 100px;
+  width: 100%;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.p-description {
+  margin-bottom: 24px;
+  font-size: 1rem;
+  line-height: 24px;
+}
+
+.apex {
+  display: flex;
+  justify-content: start;
+}
+
+.p-footer > div {
+  display: flex;
+  flex-direction: column;
+}
+
+.p-footer ul {
+  align-self: flex-start;
+  align-items: center;
+  text-align: center;
+  flex-direction: row;
+  display: flex;
+  list-style-type: none;
+  gap: 8px;
+  font-size: 12px;
+  line-height: 1rem;
+  letter-spacing: 0.03em;
+  margin-bottom: 1.5rem;
+}
+
+.p-footer li {
+  background-color: #ebebff;
+  color: #6070ff;
+  border-radius: 8px;
+  padding: 4px 12px;
+  font-weight: 500;
+}
+
+.p-links {
+  display: flex;
+}
+
+.p-close {
+  font-size: 22px;
+  color: #868990;
+  float: right;
+  cursor: pointer;
+  padding: 10px 10px 0 0;
+  transition: 0.4s;
+}
+
+.p-close:hover {
+  font-size: 25px;
+  color: #7a9ef0;
+}
+
+.p-links a {
+  font-size: 15px;
+  padding: 12px;
+  background-color: white;
+  border-radius: 8px;
+  color: #6070ff;
+  font-weight: 500;
+  border: 1px solid #7f8cff;
+  margin-right: 10px;
+  width: 172px;
+  text-decoration: none;
+  text-align: center;
+  line-height: 20px;
+}
+
+.p-links a i {
+  margin-left: 10px;
+}
+
+.p-img {
+  min-height: 100px;
+  width: 100%;
+  height: 50%;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  margin-bottom: 12px;
+}
+
+.desktop-image {
+  display: none;
+}
+
+.beck {
+  background-color: #fff;
+  width: 100%;
+  margin: 3rem 0;
+  padding: 16px;
+}
+
+.beck .image-cards img {
+  width: 100%;
+  max-width: 100%;
+}
+
+.cont {
+  background-color: #e5e5e5;
+  padding: 0 5%;
+}
+
+.cont {
+    background-color: #e5e5e5;
+    padding: 0 5%;
+  }
+
+.close {
+  right: auto;
+}
+
+@media screen and (min-width: 768px) and (max-width: 1024px) {
+  .desktop-image {
+    display: block;
+  }
+  .p-img {
+    min-height: 100px;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    margin-bottom: 0.5rem;
+  }
+
+  .p-pop {
+    left: 3em;
+    right: 3em;
+    padding: 0.5em 1em;
+    z-index: 10000;
+  }
+
+  .desc p {
+    font-size: 0.812em;
+    padding-bottom: 20px;
+  }
+
+  .project-btn {
+    margin: 20px 0;
+  }
+
+  .cont {
+    background-color: #e5e5e5;
+    padding: 0 5%;
+  }
+
+  .beck {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 20px;
+    border: 1px solid #dfe1e6;
+    border-radius: 16px;
+  }
+
+  .beck.reversed {
+    flex-direction: row-reverse;
+  }
+
+  .beck .c-title {
+    margin: 30px 0 0 0;
+  }
+
+  .mobile-image {
+    display: none;
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  
+  .p-pop {
+    right: 5em;
+    left: 5em;
+  }
+
+  .p-img {
+    margin-bottom: 59px;
+  }
+
+  .p-description {
+    margin-right: 20px;
+    line-height: 30px;
+    width: 50vw;
+  }
+
+  .p-footer {
+    flex-direction: row;
+    justify-content: space-between;
+  }
+
+  .p-footer > div {
+    width: 30vw;
+  }
+
+  .p-footer ul {
+    margin-bottom: 41px;
+  }
+
+  .p-links a {
+    width: 148px;
+  }
+
+  .beck {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 20px;
+    border: 1px solid #dfe1e6;
+    border-radius: 16px;
+  }
+}
