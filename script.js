@@ -111,8 +111,8 @@ const popupContainer = document.querySelector('.pop');
 const recentWork = document.querySelector('.works');
 const parser = new DOMParser();
 projectCardString.forEach((projectString, index) => {
-const projectElement = parser.parseFromString(projectString, 'text/html').body.firstChild;
-const mobilePopup = `
+  const projectElement = parser.parseFromString(projectString, 'text/html').body.firstChild;
+  const mobilePopup = `
     <div class="p-pop-hide ">
     <div class="backgroundpop"></div>
       <div class="p-pop">
@@ -144,11 +144,11 @@ const mobilePopup = `
   const projectBtn = projectElement.querySelector('.see-button');
   const closeBtn = mobilePopupElement.querySelector('.project-close');
   projectBtn.addEventListener('click', () => {
-  mobilePopupElement.classList.toggle('p-pop-hide');
+    mobilePopupElement.classList.toggle('p-pop-hide');
   });
   closeBtn.addEventListener('click', () => {
-  mobilePopupElement.classList.toggle('p-pop-hide');
+    mobilePopupElement.classList.toggle('p-pop-hide');
   });
   recentWork.append(projectElement);
   popupContainer.append(mobilePopupElement);
-  });
+});
