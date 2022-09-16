@@ -154,10 +154,17 @@ projectCardString.forEach((projectString, index) => {
 });
 
 //form validation
+
 function validateForm() {
-  let x = document.forms["form1"]["email"].value;
+  const x = document.forms['.form1']['.email'].value;
   if (x !== x.toLowerCase) {
-   document.querySelector('.error').innerHTML = '*Please type your email in lowercase*';
+    document.querySelector('.error').innerHTML = '*Please type your email in lowercase*';
+    onsubmit="return validateForm()"
     return false;
   }
+  else
+  {
+    return true;
+  }
+  
 }
