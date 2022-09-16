@@ -32,20 +32,6 @@ body {
   padding: 0 5%;
 }
 
-.x-button {
-  display: flex;
-  flex-direction: row;
-  align-items: center;
-  padding: 16px;
-  gap: 12px;
-  height: auto;
-}
-
-.p-cards {
-  display: flex;
-  gap: 0.625rem;
-}
-
 .cardimage {
   max-width: 295px;
   max-height: 220px;
@@ -113,24 +99,6 @@ body {
   height: auto;
 }
 
-.button {
-  background-color: #b7bcff;
-  text-align: center;
-  height: 24px;
-  border-radius: 8px;
-  border: none;
-  color: #6070ff;
-  padding: 0 12px 0 12px;
-  transition: 0.25s;
-  cursor: pointer;
-}
-
-.button:hover {
-  border-radius: 30px;
-  background-color: #1818eb;
-  color: #b7bcff;
-}
-
 .p-cards {
   display: flex;
   gap: 0.625rem;
@@ -138,11 +106,6 @@ body {
 
 .beck .c-title .p-cards {
   margin: 0.8rem 0;
-}
-
-.cardimage {
-  max-width: 295px;
-  max-height: 220px;
 }
 
 .p-pop {
@@ -297,11 +260,6 @@ body {
   padding: 0 5%;
 }
 
-.cont {
-    background-color: #e5e5e5;
-    padding: 0 5%;
-  }
-
 .close {
   right: auto;
 }
@@ -401,4 +359,5 @@ body {
     border: 1px solid #dfe1e6;
     border-radius: 16px;
   }
+  
 }
