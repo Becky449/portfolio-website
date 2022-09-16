@@ -152,3 +152,12 @@ projectCardString.forEach((projectString, index) => {
   recentWork.append(projectElement);
   popupContainer.append(mobilePopupElement);
 });
+
+//form validation
+function validateForm() {
+  let x = document.forms["form1"]["email"].value;
+  if (x !== x.toLowerCase) {
+   document.querySelector('.error').innerHTML = '*Please type your email in lowercase*';
+    return false;
+  }
+}
