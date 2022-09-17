@@ -207,6 +207,6 @@ function fillInputs() {
   });
 }
 
-addEventListener('load', () => {
+window.addEventListener('load', () => {
   fillInputs();
 });
