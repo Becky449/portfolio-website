@@ -174,7 +174,7 @@ submitx.addEventListener('click', (event) => {
 
 const nameInput = document.querySelector('#name');
 const email = document.querySelector('#email');
-const msg = document.querySelector('#sheet');
+const msg = document.querySelector("#sheet");
 const form = document.querySelector('form');
 const body = document.querySelector('body');
 
@@ -195,7 +195,7 @@ document.querySelectorAll('.input').forEach((input) => {
 
     // Get input field values
     const nameData = document.querySelector('#name').value;
-    const emailData = document.querySelector('#email').value;
+    const emailData = document.querySelector('#email').value
     const msgData = document.querySelector('#sheet').value;
 
     // Store values in object;
