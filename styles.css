@@ -566,6 +566,12 @@ form .btn {
   background-color: #2230d2;
 }
 
+.error {
+  color: lemonchiffon;
+  font-family: 'poppins', sans-serif;
+  padding-top: 5px;
+}
+
 @media screen and (min-device-width: 768px) {
   * {
     box-sizing: border-box;
@@ -1059,6 +1065,12 @@ form .btn {
   button {
     display: flex;
     align-items: center;
+    text-align: center;
+  }
+
+  .error {
+    color: lemonchiffon;
+    font-family: 'poppins', sans-serif;
     text-align: center;
   }
 

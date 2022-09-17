@@ -152,3 +152,22 @@ projectCardString.forEach((projectString, index) => {
   recentWork.append(projectElement);
   popupContainer.append(mobilePopupElement);
 });
+
+const submitx = document.getElementById('submit');
+
+const validEmail = (email) => {
+  if (email.match(/^[a-z0-9.!#$%&'*+/=?^_`{|}~-]+@[a-z0-9-]+(?:\.[a-z0-9-]+)*$/)) {
+    return true;
+  }
+  return false;
+};
+
+submitx.addEventListener('click', (event) => {
+  const validatedEmail = document.getElementById('email').value;
+  if (!validEmail(validatedEmail)) {
+    document.querySelector('.error').innerHTML = '*Email should be typed in Lowercase*';
+    event.preventDefault();
+  } else {
+    document.querySelector('.error').innerHTML = '';
+  }
+});
