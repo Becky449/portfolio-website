@@ -181,7 +181,7 @@ function fillInputs() {
 
   user.addEventListener('change', (event) => {
     user.value = event.target.value;
-    localStorage.setItem ('user', event.target.value);
+    localStorage.setItem('user', event.target.value);
   });
 
   const email = document.getElementById('email');
@@ -192,7 +192,7 @@ function fillInputs() {
 
   email.addEventListener('change', (event) => {
     email.value = event.target.value;
-    localStorage.setItem ('email', event.target.value);
+    localStorage.setItem('email', event.target.value);
   });
 
   const text = document.getElementById('text');
@@ -203,7 +203,7 @@ function fillInputs() {
 
   text.addEventListener('change', (event) => {
     text.value = event.target.value;
-    localStorage.setItem ('text', event.target.value);
+    localStorage.setItem('text', event.target.value);
   });
 }
 
