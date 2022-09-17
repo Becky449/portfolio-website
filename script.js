@@ -214,13 +214,13 @@ submitx.addEventListener('click', (event) => {
 function fillInputs() {
   const user = document.getElementById('name');
   const nameValue = localStorage.getItem('user');
-  if(nameValue) {
+  if (nameValue) {
     user.value = nameValue;
   }
 
-  user.addEventListener('change', function (event) {
-    user.value = event.target.value;
-    localStorage.setItem('user', event.target.value);
+  user.addEventListener('change', () => {
+    user.value = target.value;
+    localStorage.setItem('user', target.value);
   });
 
   const email = document.getElementById('email');
@@ -229,9 +229,9 @@ function fillInputs() {
     email.value = ValueFormEmail
   }
 
-  email.addEventListener('change', function(event) {
-    email.value = event.target.value;
-    localStorage.setItem('email', event.target.value);
+  email.addEventListener('change', () => {
+    email.value = target.value;
+    localStorage.setItem('email', target.value);
   });
 
   const text = document.getElementById('text');
@@ -240,9 +240,9 @@ function fillInputs() {
     text.value = valueForText;
   }
    
-  text.addEventListener('change', function(event){
-    text.value = event.target.value;
-    localStorage.setItem('text', event.target.value);
+  text.addEventListener('change', () => {
+    text.value = target.value;
+    localStorage.setItem('text', target.value);
   });
 }
 
