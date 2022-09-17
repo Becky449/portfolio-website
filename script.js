@@ -172,6 +172,45 @@ submitx.addEventListener('click', (event) => {
   }
 });
 
+// const body = document.querySelector('body');
+// const form = document.querySelector('form');
+// const name = document.getElementById('name');
+// const email = document.getElementById('email');
+// const text = document.getElementById('text');
+
+// const retrieveData = localStorage.getItem('user');
+
+// body.onload = () => {
+//   if (retrieveData) {
+//     const store = JSON.parse(retrieveData);
+//     name.value = store.name;
+//     email.value = store.email;
+//     text.value = store.text;
+//   }
+// };
+
+// document.querySelectorAll('input').forEach((input) => {
+//   input.addEventListener('input', (event) => {
+//     event.preventDefault();
+
+//     const nameData = document.getElementById('name').value;
+//     const emailData = document.getElementById('email').value;
+//     const textData = document.getElementById('text').value;
+
+//     const userStore = {
+//       name: nameData,
+//       email: emailData,
+//       text: textData,
+//     };
+
+//     localStorage.setItem('user', JSON.stringify(userStore));
+//   });
+// });
+
+// form.addEventListener('submit', (e) => {
+//   e.preventDefault();
+// });
+
 function fillInputs() {
   const user = document.getElementById('name');
   const nameValue = localStorage.getItem('user');
