@@ -212,6 +212,7 @@ submitx.addEventListener('click', (event) => {
 // });
 
 function fillInputs() {
+  const form = document.getElementById('form');
   const user = document.getElementById('name');
   const nameValue = localStorage.getItem('user');
   if (nameValue) {
@@ -226,7 +227,7 @@ function fillInputs() {
   const email = document.getElementById('email');
   const ValueFormEmail = localStorage.getItem('email');
   if (ValueFormEmail) {
-    email.value = ValueFormEmail
+    email.value = ValueFormEmail;
   }
 
   email.addEventListener('change', () => {
@@ -236,16 +237,16 @@ function fillInputs() {
 
   const text = document.getElementById('text');
   const valueForText = localStorage.getItem('text');
-  if (valueForText){
+  if (valueForText) {
     text.value = valueForText;
   }
-   
+ 
   text.addEventListener('change', () => {
     text.value = text.target.value;
     localStorage.setItem('text', text.target.value);
   });
 }
 
-addEventListener('load', () => {
+form.addEventListener('load', () => {
   fillInputs();
 });
