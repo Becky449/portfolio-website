@@ -171,3 +171,42 @@ submitx.addEventListener('click', (event) => {
     document.querySelector('.error').innerHTML = '';
   }
 });
+
+function fillInputs() {
+  //seting on load
+  const username = document.getElementById("name");
+  const valueForName = localStorage.getItem("username")
+  if(valueForName) {
+    username.value = valueForName;
+  }
+  username.addEventListener("change", function (event) {
+    username.value = event.target.value;
+    localStorage.setItem("username", event.target.value);
+  });
+
+  const email = document.getElementById("email");
+  const ValueFormEmail = localStorage.getItem("email");
+  if (ValueFormEmail) {
+    email.value = ValueFormEmail
+  }
+
+  email.addEventListener("change", function(event) {
+    email.value = event.target.value;
+    localStorage.setItem("email", event.target.value);
+  });
+
+  const text = document.getElementById("text");
+  const valueForText = localStorage.getItem("text")
+  if (valueForText){
+    text.value = valueForText;
+  }
+   
+  text.addEventListener("change",function(event){
+    text.value = event.target.value;
+    localStorage.setItem("text",event.target.value);
+  });
+}
+
+addEventListener("load", () => {
+  fillInputs();
+});
