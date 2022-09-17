@@ -172,41 +172,154 @@ submitx.addEventListener('click', (event) => {
   }
 });
 
-function fillInputs() {
-  const user = document.getElementById('name');
-  const nameValue = localStorage.getItem('user');
-  if (nameValue) {
-    user.value = nameValue;
+// function fillInputs() {
+//   const user = document.getElementById('name');
+//   const nameValue = localStorage.getItem('user');
+//   if (nameValue) {
+//     user.value = nameValue;
+//   }
+
+//   user.addEventListener('change', (event) => {
+//     user.value = event.target.value;
+//     localStorage.setItem('user', event.target.value);
+//   });
+
+//   const email = document.getElementById('email');
+//   const ValueFormEmail = localStorage.getItem('email');
+//   if (ValueFormEmail) {
+//     email.value = ValueFormEmail;
+//   }
+
+//   email.addEventListener('change', (event) => {
+//     email.value = event.target.value;
+//     localStorage.setItem('email', event.target.value);
+//   });
+
+//   const text = document.getElementById('text');
+//   const valueForText = localStorage.getItem('text');
+//   if (valueForText) {
+//     text.value = valueForText;
+//   }
+
+//   text.addEventListener('change', (event) => {
+//     text.value = event.target.value;
+//     localStorage.setItem('text', event.target.value);
+//   });
+// }
+
+// window.addEventListener('load', () => {
+//   fillInputs();
+// });
+
+
+
+
+// const names = document.getElementById('name');
+// const email = document.getElementById('email');
+// const text = document.getElementById('text');
+// const form = document.querySelector('form');
+// const body = document.querySelector('body');
+
+
+
+// window.onload = () => {
+//   const retrieveData = localStorage.getItem('user');
+//   const store = JSON.parse(retrieveData);
+
+//   if (retrieveData) {
+    
+//     names.value = store.names;
+//     email.value = store.email;
+//     text.value = store.text;
+//   }
+// // };
+
+// // document.querySelectorAll('input').forEach((input) => {
+// //   input.addEventListener('input', (event) => {
+// //     event.preventDefault();
+
+// //     const nameData = document.getElementById('name').value;
+// //     const emailData = document.getElementById('email').value;
+// //     const textData = document.getElementById('text').value;
+
+// //     const userStore = {
+// //       name: nameData,
+// //       email: emailData,
+// //       text: textData,
+// //     };
+
+//     localStorage.setItem('user', JSON.stringify(userStore));
+//   };
+
+
+// form.addEventListener('submit', (e) => {
+//   e.preventDefault();
+// });
+
+
+
+// const formData = {
+//   name: nameInput.value,
+//   email: emailInput.value,
+//   body: bodyInput.value,
+// };
+
+//
+// window.onload = () => {
+//   let savedFormData = localStorage.getItem('contactFormInput');
+//   savedFormData = JSON.parse(savedFormData);
+//   // Check if the form data object is found on localStorage
+//   if (savedFormData) {
+//     nameInput.value = savedFormData.name;
+//     emailinput.value = savedFormData.email;
+//     bodyInput.value = savedFormData.body;
+//   // populate inputs values if data was found
+//   // ex: nameInput.value = savedFormData.name
+//   }
+// };
+// localStorage.setItem('contactFormInput', JSON.stringify(formData));
+
+//= ==============================Local-Storage===============================
+
+const nameInput = document.querySelector('#name');
+const email = document.querySelector('#email');
+const msg = document.querySelector('#text');
+const form = document.querySelector('form');
+const body = document.querySelector('body');
+
+const retrieveData = localStorage.getItem('user');
+
+body.onload = () => {
+  if (retrieveData) {
+    const serialize = JSON.parse(retrieveData);
+    nameInput.value = serialize.name;
+    email.value = serialize.email;
+    msg.value = serialize.text;
   }
+};
 
-  user.addEventListener('change', (event) => {
-    user.value = event.target.value;
-    localStorage.setItem('user', event.target.value);
+document.querySelectorAll('.input').forEach((input) => {
+  input.addEventListener('input', (event) => {
+    event.preventDefault();
+
+    // Get input field values
+    const nameData = document.querySelector('#name').value;
+    const emailData = document.querySelector('#email').value;
+    const msgData = document.querySelector('#text').value;
+
+    // Store values in object;
+    const userData = {
+      name: nameData,
+      email: emailData,
+      text: msgData,
+    };
+
+    // store the object in localStorage
+
+    localStorage.setItem('user', JSON.stringify(userData));
   });
+});
 
-  const email = document.getElementById('email');
-  const ValueFormEmail = localStorage.getItem('email');
-  if (ValueFormEmail) {
-    email.value = ValueFormEmail;
-  }
-
-  email.addEventListener('change', (event) => {
-    email.value = event.target.value;
-    localStorage.setItem('email', event.target.value);
-  });
-
-  const text = document.getElementById('text');
-  const valueForText = localStorage.getItem('text');
-  if (valueForText) {
-    text.value = valueForText;
-  }
-
-  text.addEventListener('change', (event) => {
-    text.value = event.target.value;
-    localStorage.setItem('text', event.target.value);
-  });
-}
-
-window.addEventListener('load', () => {
-  fillInputs();
+form.addEventListener('submit', (e) => {
+  e.preventDefault();
 });
