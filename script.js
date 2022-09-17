@@ -212,7 +212,7 @@ submitx.addEventListener('click', (event) => {
 // });
 
 function fillInputs() {
-  const form = document.getElementById('form');
+  
   const user = document.getElementById('name');
   const nameValue = localStorage.getItem('user');
   if (nameValue) {
@@ -246,7 +246,7 @@ function fillInputs() {
     localStorage.setItem('text', text.target.value);
   });
 }
-
-form.addEventListener('load', () => {
+const form = document.getElementById('form');
+ form.addEventListener('load', () => {
   fillInputs();
 });
