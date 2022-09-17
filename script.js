@@ -153,18 +153,21 @@ projectCardString.forEach((projectString, index) => {
   popupContainer.append(mobilePopupElement);
 });
 
-//form validation
+const submitx = document.getElementById('submit');
 
-function validateForm() {
-  const x = document.forms['.form1']['.email'].value;
-  if (x !== x.toLowerCase) {
-    document.querySelector('.error').innerHTML = '*Please type your email in lowercase*';
-    onsubmit="return validateForm()"
-    return false;
-  }
-  else
-  {
+const validEmail = (email) => {
+  if (email.match(/^[a-z0-9.!#$%&'*+/=?^_`{|}~-]+@[a-z0-9-]+(?:\.[a-z0-9-]+)*$/)) {
     return true;
   }
-  
-}
+  return false;
+};
+
+submitx.addEventListener('click', (event) => {
+  const validatedEmail = document.getElementById('email').value;
+  if (!validEmail(validatedEmail)) {
+    document.querySelector('.error').innerHTML = '*Email should be typed in Lowercase*';
+    event.preventDefault();
+  } else {
+    document.querySelector('.error').innerHTML = '';
+  }
+});

@@ -569,6 +569,7 @@ form .btn {
 .error {
   color: lemonchiffon;
   font-family: 'poppins', sans-serif;
+  padding-top: 5px;
 }
 
 @media screen and (min-device-width: 768px) {
