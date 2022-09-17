@@ -173,21 +173,21 @@ submitx.addEventListener('click', (event) => {
 });
 
 function fillInputs() {
-  const user = document.getElementById ('name');
+  const user = document.getElementById('name');
   const nameValue = localStorage.getItem('user');
-  if(nameValue) {
+  if (nameValue) {
     user.value = nameValue;
   }
 
-  user.addEventListener ('change', (event) => {
+  user.addEventListener('change', (event) => {
     user.value = event.target.value;
     localStorage.setItem ('user', event.target.value);
   });
 
-  const email = document.getElementById ('email');
+  const email = document.getElementById('email');
   const ValueFormEmail = localStorage.getItem('email');
   if (ValueFormEmail) {
-    email.value = ValueFormEmail
+    email.value = ValueFormEmail;
   }
 
   email.addEventListener('change', (event) => {
@@ -200,14 +200,13 @@ function fillInputs() {
   if (valueForText) {
     text.value = valueForText;
   }
- 
-  text.addEventListener ('change', (event) => {
+
+  text.addEventListener('change', (event) => {
     text.value = event.target.value;
     localStorage.setItem ('text', event.target.value);
   });
 }
 
-addEventListener ('load', () => {
+addEventListener('load', () => {
   fillInputs();
 });
-
