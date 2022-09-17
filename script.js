@@ -173,15 +173,14 @@ submitx.addEventListener('click', (event) => {
 });
 
 function fillInputs() {
-  //seting on load
-  const username = document.getElementById("name");
-  const valueForName = localStorage.getItem("username")
-  if(valueForName) {
-    username.value = valueForName;
+  const user = document.getElementById("name");
+  const nameValue = localStorage.getItem("user")
+  if(nameValue) {
+    user.value = nameValue;
   }
-  username.addEventListener("change", function (event) {
-    username.value = event.target.value;
-    localStorage.setItem("username", event.target.value);
+  user.addEventListener("change", function (event) {
+    user.value = event.target.value;
+    localStorage.setItem("user", event.target.value);
   });
 
   const email = document.getElementById("email");
