@@ -219,8 +219,8 @@ function fillInputs() {
   }
 
   user.addEventListener('change', () => {
-    user.value = target.value;
-    localStorage.setItem('user', target.value);
+    user.value = user.target.value;
+    localStorage.setItem('user', user.target.value);
   });
 
   const email = document.getElementById('email');
@@ -230,8 +230,8 @@ function fillInputs() {
   }
 
   email.addEventListener('change', () => {
-    email.value = target.value;
-    localStorage.setItem('email', target.value);
+    email.value = email.target.value;
+    localStorage.setItem('email', email.target.value);
   });
 
   const text = document.getElementById('text');
@@ -241,8 +241,8 @@ function fillInputs() {
   }
    
   text.addEventListener('change', () => {
-    text.value = target.value;
-    localStorage.setItem('text', target.value);
+    text.value = text.target.value;
+    localStorage.setItem('text', text.target.value);
   });
 }
 
