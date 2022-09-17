@@ -173,36 +173,36 @@ submitx.addEventListener('click', (event) => {
 });
 
 function fillInputs() {
-  const user = document.getElementById("name");
-  const nameValue = localStorage.getItem("user")
+  const user = document.getElementById('name');
+  const nameValue = localStorage.getItem('user')
   if(nameValue) {
     user.value = nameValue;
   }
-  user.addEventListener("change", function (event) {
+  user.addEventListener('change', function (event) {
     user.value = event.target.value;
-    localStorage.setItem("user", event.target.value);
+    localStorage.setItem('user', event.target.value);
   });
 
-  const email = document.getElementById("email");
-  const ValueFormEmail = localStorage.getItem("email");
+  const email = document.getElementById('email');
+  const ValueFormEmail = localStorage.getItem('email');
   if (ValueFormEmail) {
     email.value = ValueFormEmail
   }
 
-  email.addEventListener("change", function(event) {
+  email.addEventListener('change', function(event) {
     email.value = event.target.value;
-    localStorage.setItem("email", event.target.value);
+    localStorage.setItem('email', event.target.value);
   });
 
-  const text = document.getElementById("text");
-  const valueForText = localStorage.getItem("text")
+  const text = document.getElementById('text');
+  const valueForText = localStorage.getItem('text')
   if (valueForText){
     text.value = valueForText;
   }
    
-  text.addEventListener("change",function(event){
+  text.addEventListener('change',function(event){
     text.value = event.target.value;
-    localStorage.setItem("text",event.target.value);
+    localStorage.setItem('text',event.target.value);
   });
 }
 
